@@ -14,12 +14,13 @@
   body {
     color: var(--clr-gray);
     margin: 1rem;
-    
+    background: black;
+
   }
   
   .wrapper-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 40rem);
+    grid-template-columns: repeat(auto-fit, 22rem);
     justify-content: center;
   }
   
@@ -33,5 +34,10 @@
     margin: 0.5rem;
   }
   
+  .profile-img{
+      width: 100%;
+      height: auto;
+
+  }
 
   
